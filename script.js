@@ -200,4 +200,31 @@ function addNew(n1, n2) {
 
 addNew(4, 5);
 
+
+
+//5
+//Continue
+
+for (i = 0; i < 10; i++) {
+  if (i === 5) {
+    document.write("I is skipped");
+    continue;
+  }
+  document.write(`<br> i is now at : ` + i);
+}
+
 */
+
+//6 Array : you can declear array by using 2 types like
+//1
+
+let arrayName = new Array("Apple", "Banana", "Mango", "Orange");
+console.log(arrayName);
+
+//2
+let anotherArr = ["Apple", "Banana", "Mango", "Orange"];
+anotherArr[3] = "Papiya";
+console.log(anotherArr);
+console.log(anotherArr.length);
+console.log(anotherArr["length"]);
+console.log(anotherArr[3]);
