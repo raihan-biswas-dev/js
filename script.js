@@ -102,9 +102,11 @@ switch (true) {
 
 */
 
+/*
+
 // for loop  (==) Only compare value but (===) compare value and data type both
 
-/* let i;
+
 
 for (i = 0; i < 10; i++) {
   if (i == 5 || i == 7) {
@@ -112,6 +114,37 @@ for (i = 0; i < 10; i++) {
   }
   document.write(i + "<button>CLick Me!</button> </br>");
 }
+
+*/
+
+//for loop
+/*
+for (i = 0; i < 10; i++) {
+  document.write(i + "Number count <br>");
+}
+
+*/
+
+//while loop
+
+/*
+let i = 0;
+while (i < 10) {
+  document.write("while loop" + i + "Number count <br>");
+  i++;
+}
+
+
+
+// do while loop
+
+
+let i = 0;
+
+do {
+  document.write("Do while loop" + i + "Number count <br>");
+  i++;
+} while (i < 10);
 
 
 
@@ -124,7 +157,6 @@ while (i < 10) {
 
 //While loop
 
-
 let kotoBar = 0;
 
 while (kotoBar < 10) {
@@ -132,6 +164,40 @@ while (kotoBar < 10) {
   kotoBar++;
 }
 
+let kotoBar = 0;
+do {
+  document.write(kotoBar + "kane Dhore Utbosh korar hoiace <br>");
+  kotoBar++;
+} while (kotoBar < 10);
+
+/*
+// Function
+
+function addNumber() {
+  let a = 10;
+  let b = 20;
+  let c = a + b;
+  document.write(c + "<br>");
+}
+addNumber();
+
+
+
+
+// Function Parameter
+
+function addNumber(a, b) {
+  let c = a + b;
+  document.write(c + "<br>");
+}
+addNumber(13, 7);
+
+
+
+function addNew(n1, n2) {
+  return n1 + n2;
+}
+
+addNew(4, 5);
+
 */
-
-
