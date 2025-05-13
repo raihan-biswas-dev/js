@@ -213,7 +213,7 @@ for (i = 0; i < 10; i++) {
   document.write(`<br> i is now at : ` + i);
 }
 
-*/
+
 
 //6 Array : you can declear array by using 2 types like
 //1
@@ -228,3 +228,37 @@ console.log(anotherArr);
 console.log(anotherArr.length);
 console.log(anotherArr["length"]);
 console.log(anotherArr[3]);
+
+
+
+//2
+let anotherArr = ["Apple", "Banana", "Mango", "Orange"];
+
+for (i = 0; i < anotherArr.length; i++) {
+  document.write(i + "=" + anotherArr[i] + `<br>`);
+}
+
+
+
+// let arrName = ["Apple", "Banana", "Mango", "Orange"];
+
+let newArry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
+spliceArry = newArry.splice(3);
+console.log(newArry);
+console.log(spliceArry);
+
+*/
+
+function sumMachine(a, b) {
+  let sum = a + b;
+  return sum;
+}
+
+let myResult = sumMachine(2, 4);
+console.log(myResult);
+
+function printMyName(name, age) {
+  console.log(`my name is : ` + name + ` and I am ` + age + ` years old`);
+}
+printMyName("Raihan", 28);
