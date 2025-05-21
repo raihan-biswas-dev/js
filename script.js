@@ -248,7 +248,7 @@ spliceArry = newArry.splice(3);
 console.log(newArry);
 console.log(spliceArry);
 
-*/
+
 
 function sumMachine(a, b) {
   let sum = a + b;
@@ -262,3 +262,63 @@ function printMyName(name, age) {
   console.log(`my name is : ` + name + ` and I am ` + age + ` years old`);
 }
 printMyName("Raihan", 28);
+
+
+
+// For in loop in array
+
+let category = ["electronic", "Fruits", "Cloath", "Shoes", "Books"];
+
+for (let item in category) {
+  document.write(category[item] + "<br>");
+}
+
+*/
+
+/*
+
+// For In loop in Object
+
+let person = {
+  name: "raihan",
+  age: 28,
+  city: "jashore",
+  designation: "web developer",
+};
+
+for (let item in person) {
+  document.write(person[item] + "<br>");
+}
+
+*/
+
+/*
+// Concate
+
+let arry1 = [1, 2, 3, 4];
+let arry2 = [5, 6, 7, 8];
+
+let newarr = arry1.concat(arry2);
+document.write(newarr);
+
+*/
+
+/*
+// Array From Method
+
+let nameArr = "MD RAIHAN BISWAS";
+
+let n = Array.from(nameArr);
+document.write(n[6]);
+
+*/
+
+// Filter method
+
+let numbers = [12, 45, 67, 89, 74, 16, 92, 37, 57, 43, 10];
+
+let results = numbers.filter(function (item) {
+  return item > 60;
+});
+
+document.write(results);
