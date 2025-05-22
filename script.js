@@ -264,7 +264,9 @@ function printMyName(name, age) {
 printMyName("Raihan", 28);
 
 
+*/
 
+/*
 // For in loop in array
 
 let category = ["electronic", "Fruits", "Cloath", "Shoes", "Books"];
@@ -313,6 +315,8 @@ document.write(n[6]);
 
 */
 
+/*
+
 // Filter method
 
 let numbers = [12, 45, 67, 89, 74, 16, 92, 37, 57, 43, 10];
@@ -322,3 +326,32 @@ let results = numbers.filter(function (item) {
 });
 
 document.write(results);
+
+*/
+
+/*
+// Array find and find index method
+
+let myNumber = [34, 22, 43, 56, 78, 91, 18];
+
+let results = myNumber.find(function (value) {
+  return value < 30;
+});
+
+document.write(results);
+
+*/
+
+/*
+let myNumber = [34, 22, 43, 56, 78, 91, 18];
+
+let results = myNumber.forEach(function (item) {
+  document.write(item + "<br>");
+});
+
+*/
+
+let myNumber = [34, 22, 43, 56, 78, 91, 18];
+
+let findingItem = myNumber.includes(13);
+document.write(findingItem);
