@@ -351,7 +351,38 @@ let results = myNumber.forEach(function (item) {
 
 */
 
+/*
+//includes method
+
+
 let myNumber = [34, 22, 43, 56, 78, 91, 18];
 
 let findingItem = myNumber.includes(13);
 document.write(findingItem);
+
+
+
+let myNumber = [34, 22, 43, 56, 78, 91, 18];
+
+let sortData = myNumber.sort().reverse();
+
+document.write(sortData);
+
+//Slice Method
+
+let myNumber = [34, 22, 43, 56, 78, 91, 18];
+
+let sliceArr = myNumber.slice(2, 6);
+document.write(sliceArr);
+
+
+*/
+
+// Splice Method
+
+// array.splice(index, removeContent, item);
+
+let myNumber = [34, 22, 43, 56, 78, 91, 18];
+// array.splice(index, removeContent, item);
+myNumber.splice(0, 0, 10);
+document.write(myNumber);
