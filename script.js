@@ -378,6 +378,8 @@ document.write(sliceArr);
 
 */
 
+/*
+
 // Splice Method
 
 // array.splice(index, removeContent, item);
@@ -386,3 +388,20 @@ let myNumber = [34, 22, 43, 56, 78, 91, 18];
 // array.splice(index, removeContent, item);
 myNumber.splice(0, 0, 10);
 document.write(myNumber);
+
+*/
+
+// String Method
+
+// let country = "Bangladesh";
+// document.write(country.charAt(8));
+
+let country1 = "BanglaBdesh";
+let country2 = "Pakistan";
+// document.write(country1.concat(" " + country2));
+// document.write(country1.indexOf("a"));
+// document.write(country1.lastIndexOf("a"));
+// document.write(country1.replace("desh", "DESHI"));
+// document.write(country1.substr(6, 4));
+// document.write(country1.substring(6, 11));
+// document.write(country1.substring(6, 11));
