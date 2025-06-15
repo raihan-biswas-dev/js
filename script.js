@@ -396,8 +396,8 @@ document.write(myNumber);
 // let country = "Bangladesh";
 // document.write(country.charAt(8));
 
-let country1 = "BanglaBdesh";
-let country2 = "Pakistan";
+// let country1 = "BanglaBdesh";
+// let country2 = "Pakistan";
 // document.write(country1.concat(" " + country2));
 // document.write(country1.indexOf("a"));
 // document.write(country1.lastIndexOf("a"));
@@ -405,3 +405,47 @@ let country2 = "Pakistan";
 // document.write(country1.substr(6, 4));
 // document.write(country1.substring(6, 11));
 // document.write(country1.substring(6, 11));
+
+// let country1 = "     BanglaBdesh    ";
+// console.log(country1.length);
+// let country2 = country1.trim();
+// console.log(country2.length);
+
+// Date method
+
+/*
+let myDate = new Date();
+
+document.write(myDate.getMinutes());
+
+
+*/
+
+// console.dir(Math.pow(10, 2));
+// console.dir(Math.floor(10.92));
+// // console.dir(Math.PI);
+
+// let numbers = [4, 6, 3, 8, 9, 1, 3, 7];
+// console.log(Math.max(...numbers));
+// console.log(Math.min(...numbers));
+
+// console.log(Math.floor(Math.random() * 100));
+// console.log(Math.round(Math.random() * 100));
+
+// let numbers = [7];
+
+// console.log(Math.sign(...numbers));
+// console.log(Date.now());
+
+// console.dir(Date());
+
+// let myDate = new Date();
+// console.log(myDate);
+// console.log(myDate.toLocaleTimeString(`bn-BD`));
+
+function objAlert() {
+  alert("site is not ready");
+}
+function objConfirm() {
+  confirm("site is not ready");
+}
