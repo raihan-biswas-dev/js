@@ -446,6 +446,20 @@ document.write(myDate.getMinutes());
 function objAlert() {
   alert("site is not ready");
 }
+
 function objConfirm() {
-  confirm("site is not ready");
+  let result = confirm("so you agree with this terms and conditions?");
+  document.write(result);
+}
+
+function objPrompt() {
+  let result = prompt("what is your name?");
+  document.write(result);
+}
+
+function objOpen() {
+  open();
+}
+function objClose() {
+  close();
 }
