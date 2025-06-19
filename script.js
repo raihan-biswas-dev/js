@@ -443,6 +443,9 @@ document.write(myDate.getMinutes());
 // console.log(myDate);
 // console.log(myDate.toLocaleTimeString(`bn-BD`));
 
+// Window Object
+/*
+
 function objAlert() {
   alert("site is not ready");
 }
@@ -463,3 +466,10 @@ function objOpen() {
 function objClose() {
   close();
 }
+
+setTimeout(function () {
+  alert("after 10 sec");
+}, 10000);
+*/
+
+
