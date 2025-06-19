@@ -472,4 +472,30 @@ setTimeout(function () {
 }, 10000);
 */
 
+// Navigator Object
 
+/*
+let appCodeName = navigator.appCodeName;
+let appName = navigator.appName;
+let appVersion = navigator.appVersion;
+let cookieEnabled = navigator.cookieEnabled;
+let geolocation = navigator.geolocation;
+let language = navigator.language;
+let onLine = navigator.onLine;
+let platform = navigator.platform;
+let product = navigator.product;
+let userAgent = navigator.userAgent;
+let javaAna = navigator.javaEnabled();
+
+document.write(appCodeName + "<br>");
+document.write(appName + "<br>");
+document.write(appVersion + "<br>");
+document.write(cookieEnabled + "<br>");
+document.write(geolocation + "<br>");
+document.write(language + "<br>");
+document.write(onLine + "<br>");
+document.write(platform + "<br>");
+document.write(product + "<br>");
+document.write(userAgent + "<br>");
+document.write(javaAna + "<br>");
+*/
