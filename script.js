@@ -499,3 +499,19 @@ document.write(product + "<br>");
 document.write(userAgent + "<br>");
 document.write(javaAna + "<br>");
 */
+
+// Navigator.geolation
+/*
+navigator.geolocation.getCurrentPosition(function (position) {
+  let latituade = position.coords.latitude;
+  let altitude = position.coords.altitude;
+  let longitude = position.coords.longitude;
+  let speed = position.coords.speed;
+
+  document.write("latituade :" + latituade + "<br>");
+  document.write("altitude :" + altitude + "<br>");
+  document.write("longitude :" + longitude + "<br>");
+  document.write("speed :" + speed + "<br>");
+});
+
+*/
