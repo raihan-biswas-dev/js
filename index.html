@@ -27,14 +27,28 @@
 
     <!-- <button onclick="setTimeout()">SetTimeOut Func</button> -->
 
-    <button onclick="myEvent('click hoiace')">Click</button>
-    <button onmouseover="myEvent('mouse over hoiace')">Over</button>
-    <button onmouseout="myEvent('mouse out hoiace')">Out</button>
+    <!-- <button onchange="myEvent('click hoiace')">Click</button>
+    <button onkeydown="myEvent('mouse over hoiace')">Over</button>
+    <button onkeyup="myEvent('mouse out hoiace')">Out</button> -->
+
+    <!-- <input onchange="myEvent('change hoiace')">
+    <input onkeydown="myEvent('key down hoiace')">
+    <input onkeyup="myEvent('key up hoiace')"> -->
+
+    <!-- <h1 name="myName">H1</h1>
+    <h2 name="myName"></h2>
+    <button name="myName"></button> -->
+
+    <p></p>
+    <button onclick="demo()">Click Me!</button>
 
 
     <script>
-        function myEvent(msg) {
-            console.log(msg)
+        function demo() {
+            let w = window.open()
+            w.document.open();
+            w.document.write('<h2>MD RAIHAN BISWAS</h2>');
+            w.document.close();
         }
     </script>
 
