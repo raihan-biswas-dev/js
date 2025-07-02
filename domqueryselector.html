@@ -12,12 +12,22 @@
 
 <body>
 
+    <h1 id="h1">H1</h1>
+    <h5 class="h5">h5</h5>
+    <p name="myName">Name</p>
+    <h4>H4</h4>
+
+    <button onclick="clickMe()">Click Me!</button>
 
 
-
-
-
-
+    <script>
+        function clickMe() {
+            document.querySelector('#h1').innerHTML = "I am changed to H1 to Query"
+            document.querySelector('.h5').innerHTML = "I am changed to h5 to Something"
+            document.querySelector('p[name="myName"]').innerHTML = "I am Not Raihan"
+            document.querySelector('h4').innerHTML = "I am changed to big H4"
+        }
+    </script>
 </body>
 
 </html>
